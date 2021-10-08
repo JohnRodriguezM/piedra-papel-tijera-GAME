@@ -75,37 +75,37 @@ let perdiste = "perdiste, la maquina ha jugado con ";
 let empate = "ha sido un empate, la maquina ha jugado con ";
 
 
-if (traerTexto.value == lista[0] && item == lista[2])
+if (traerTexto.value.toLowerCase() == lista[0] && item == lista[2])
 {
     let texto = document.getElementById("parrafo").innerHTML = (ganaste + item);
 }
-else if(traerTexto.value == lista[0] && item == lista[1])
+else if(traerTexto.value.toLowerCase() == lista[0] && item == lista[1])
 {
     let texto = document.getElementById("parrafo").innerHTML = (perdiste + item);
 }
-else if(traerTexto.value == lista[0] && item == lista[0])
+else if(traerTexto.value.toLowerCase() == lista[0] && item == lista[0])
 {
     let texto = document.getElementById("parrafo").innerHTML = (empate + item);
 }
-else if(traerTexto.value == lista[1] && item == lista[0])
+else if(traerTexto.value.toLowerCase() == lista[1] && item == lista[0])
 {
     let texto = document.getElementById("parrafo").innerHTML = (ganaste + item);
 }
-else if(traerTexto.value == lista[1] && item == lista[2])
+else if(traerTexto.value.toLowerCase() == lista[1] && item == lista[2])
 {
     let texto = document.getElementById("parrafo").innerHTML = (perdiste + item);
 }
-else if(traerTexto.value == lista[1] && item == lista[1])
+else if(traerTexto.value.toLowerCase() == lista[1] && item == lista[1])
 {
     let texto = document.getElementById("parrafo").innerHTML = (empate + item);
 }
-else if(traerTexto.value == lista[2] && item == lista[1]){
+else if(traerTexto.value.toLowerCase() == lista[2] && item == lista[1]){
     let texto = document.getElementById("parrafo").innerHTML = (ganaste + item);
 }
-else if(traerTexto.value == lista[2] && item == lista[0]){
+else if(traerTexto.value.toLowerCase() == lista[2] && item == lista[0]){
     let texto = document.getElementById("parrafo").innerHTML = (perdiste + item);
 }
-else if(traerTexto.value == lista[2] && item == lista[2]){
+else if(traerTexto.value.toLowerCase() == lista[2] && item == lista[2]){
     let texto = document.getElementById("parrafo").innerHTML = (empate + item);
 }
 
