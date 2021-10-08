@@ -108,6 +108,6 @@ else if(traerTexto.value == lista[2] && item == lista[0]){
 else if(traerTexto.value == lista[2] && item == lista[2]){
     let texto = document.getElementById("parrafo").innerHTML = (empate + item);
 }
-lista.toLowerCase();
+
 
 };
