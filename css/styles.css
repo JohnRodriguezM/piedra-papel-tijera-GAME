@@ -40,7 +40,6 @@ main div #texto {
   max-width: 250px;
   height: 20px;
   outline: none;
-  text-transform: lowercase;
 }
 main div #boton {
   display: block;
