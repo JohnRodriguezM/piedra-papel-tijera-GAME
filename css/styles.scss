@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    margin:0 auto;
+    max-width: 840px;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    padding-top: 25px;
+    text-align: center;
+    h1{
+        width:90%;
+        margin:0 auto;
+        color:red;
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    ol{
+        li{
+            padding-top: 10px;
+            font-size:1.3rem;
+        }
+    }
+}
+main{
+    text-align: center;
+    padding-top: 20px;
+    img{
+        width:70%;
+        max-width: 380px;
+
+    }
+    div{
+        #texto{
+            width:80%;
+            max-width:250px;
+            height: 20px;
+            outline: none;
+        }
+        #boton{
+            display:block;
+            width:100px;
+            margin-top: 25px;
+            padding:5px;
+            background:transparent;
+            border:3px solid red;
+        }
+        p{
+            font-size:1.4rem;
+            padding-top:15px;
+        }
+    }
+}
