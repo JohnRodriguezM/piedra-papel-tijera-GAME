@@ -22,6 +22,9 @@ header h1 {
 header h2 {
   font-size: 1.4rem;
 }
+header ol {
+  list-style: none;
+}
 header ol li {
   padding-top: 10px;
   font-size: 1.3rem;
